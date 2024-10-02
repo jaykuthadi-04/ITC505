@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+    color: rgb(18, 17, 17);
+    font-family: 'Cavolini', sans-serif;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+
+main {
+    font-size: 18px;
+    padding: 20px;
+}
