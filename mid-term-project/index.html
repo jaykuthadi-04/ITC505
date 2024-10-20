@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>We Have Brains</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+  <div id="game-container">
+    <header>
+      <h1>Do we have brains???</h1>
+      <p>This is a game on knowdelege where all the questions will be poped up one after the other correct answe will move to the next question and if answered wrong there will be anotherr pop up saying it is wrong answer.Atlast, it will ask a question do we want to restart the game. </p>
+    </header>
+
+    <div id="popup-start" class="popup">
+      <h2>Do you want to start the game?</h2>
+      <button id="startGame">Start</button>
+      <button id="stay">Stay</button>
+    </div>
+
+    <div id="popup-question" class="popup">
+      <h2 id="question"></h2>
+      <button class="answer" id="answer1"></button>
+      <button class="answer" id="answer2"></button>
+    </div>
+
+    <div id="game-over" class="popup">
+      <h2>Congratulations! You finished the game!</h2>
+      <button id="restart">Restart Game</button>
+    </div>
+</main>
+    <!-- Images section for Sports and Popular Places -->
+    <div id="image-section">
+      <div class="image-container">
+        <img src="https://cdn.pixabay.com/photo/2024/01/21/22/05/ai-generated-8524102_640.jpg">
+      </div>
+      <div class="image-container">
+        <img src="https://i.natgeofe.com/n/8eba070d-14e5-4d07-8bab-9db774029063/93080_3x4.jpg" >
+        
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+  <footer>
+    <article>
+        <h2> ADDENDUM</h2>
+        <p> this the game on the knowledge</p>
+        <p>this game has a 4 categories of questions the first 2 on riddles, next 2 on generalknowlede, next 2 on sports and last 2 on popular places.</p>
+        <p> this webpage has a header, pop up design with answers in button option, game logic and images</p>
+        <p> this game will as the user whether to start game and it will even as to restart the game </p>
+        <p> when a wrong answer is choosed it will give a popup saying answer is wrong.</p>
+    <P> DIFFICULTIES FACED </P>
+    <p> implementing the game logic</p>
+    <p> alliging the images</p>
+    <P> concluding, that this game is user friendly and i learnt a lot while devoping the page.</P>
+
+    </article>
+  </footer>
+  <footer>
+    <p>Last updated: 
+        <span id="lastModified"></span>
+    </p>
+</footer>
+<script type="text/javascript">
+     var x = document.lastModified;
+     document.getElementById('lastModified').textContent = x;
+</script>
+</body>
+</html>
