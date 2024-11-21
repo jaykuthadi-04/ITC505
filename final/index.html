@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights Out Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lights Out Game</h1>
+    <div id="board"></div>
+    <div class="controls">
+        <button id="restart">Restart Game</button>
+  
+    </div>
+</div>
+<section class="addendum">
+    <h2>Addendum</h2>
+    <p><strong>Challenges Faced and Solutions:</strong></p>
+    <ul>
+        <li><strong>Ensuring Random but Solvable Board:</strong> Randomly toggling tiles using the same logic as user clicks (simulate clicks) guaranteed solvable configurations.</li>
+        <li><strong>CSS Styling for Visual Clarity:</strong> Created a clear visual distinction between on and off states using contrasting colors. Ensured responsiveness for different screen sizes.</li>
+         <li>Simulating clicks was key to maintaining solvability.</li>
+        <li>Modular code allowed easier debugging and feature addition, such as the restart button.</li>
+       
+    </ul>
+</section>
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
